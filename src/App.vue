@@ -2,7 +2,7 @@
   <div id="app">
     <nav>
       <router-link to="/">Timer</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">TikTakToe</router-link>
     </nav>
     <router-view/>
   </div>

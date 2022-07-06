@@ -1,5 +1,16 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <tik-tak-toe/>
   </div>
 </template>
+
+<script>
+import TikTakToe from "@/components/TikTakToe.vue"
+
+export default {
+  name:"AboutView",
+  components:{
+    TikTakToe
+  }
+}
+</script>
